@@ -12,12 +12,12 @@
 
     public static void AvgCalc(int[] tab)
     {
-        int flex = 0;
+        int x = 0;
         foreach (int e in tab)
         {
-            flex += e;
+            x += e;
         }
-        Console.WriteLine("Średnią w tablicy jest liczba: " + flex/tab.Length);
+        Console.WriteLine("Średnią w tablicy jest liczba: " + x/tab.Length);
         
     }
    
